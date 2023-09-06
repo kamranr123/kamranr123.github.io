@@ -305,5 +305,5 @@ available_model_dict = {
     'CounterfeitXL-anime': ['xl', CounterfeitXL_ui_config_dictionary, Base_config_dictionary, CounterfeitXL_model_link, 'CounterfeitXL-anime.safetensors' ],
     'ZavyChromaXL': ['xl', Base_ui_config_dictionary, Base_config_dictionary, ZavyChromaXL_model_link, 'ZavyChromaXL_1.0.safetensors' ],
     'DreamShaperXL1.0': ['xl', Base_ui_config_dictionary, Base_config_dictionary, DreamShaperXL10_model_link, 'DreamShaperXL1.0.safetensors' ],
-    '3DAnimationDiffusion': ['xl', Base_ui_config_dictionary, Base_config_dictionary, _3DAnimationDiffusion_model_link, '3DAnimationDiffusionV1.safetensors' ],
+    '3DAnimationDiffusion': ['1.5', Base_ui_config_dictionary, Base_config_dictionary, _3DAnimationDiffusion_model_link, '3DAnimationDiffusionV1.safetensors' ],
 }
