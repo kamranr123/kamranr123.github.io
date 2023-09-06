@@ -270,7 +270,7 @@ CounterfeitXL_ui_config_dictionary = {
 
 ZavyChromaXL_model_link = "https://civitai.com/api/download/models/149243"
 DreamShaperXL10_model_link = "https://civitai.com/api/download/models/149243"
-3DAnimationDiffusion_model_link = "https://civitai.com/api/download/models/128046?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+3DAnimationDiffusion_model_link = "https://civitai.com/api/download/models/128046"
 
 available_model_dict = {
     'Stable Diffusion v1.5': ['1.5', SD15_ui_config_dictionary, Base_config_dictionary, SD15_model_link, 'v1-5-pruned.safetensors', 'v1-5-pruned-emaonly.safetensors'],
