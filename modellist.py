@@ -269,6 +269,7 @@ CounterfeitXL_ui_config_dictionary = {
 }
 
 ZavyChromaXL_model_link = "https://civitai.com/api/download/models/149243"
+DreamShaperXL10_model_link = "https://civitai.com/api/download/models/149243"
 
 available_model_dict = {
     'Stable Diffusion v1.5': ['1.5', SD15_ui_config_dictionary, Base_config_dictionary, SD15_model_link, 'v1-5-pruned.safetensors', 'v1-5-pruned-emaonly.safetensors'],
@@ -282,7 +283,7 @@ available_model_dict = {
     'NeverEndingDream2': ['1.5', NeverEndingDream2_ui_config_dictionary, Base_config_dictionary, NeverEndingDream2_model_link, 'NeverEndingDream_fp16.safetensors', 'NeverEndingDream_ft_mse-inpainting.inpainting.safetensors' ],
     'F2': ['1.5', F2_ui_config_dictionary, Base_config_dictionary, F2_model_link, 'f2.ckpt' ],
     'PerfectWorldV4B': ['1.5', PerfectWorld_ui_config_dictionary, Base_config_dictionary, PerfectWorld_model_link, 'perfectWorld_v5Baked_fp16.safetensors' ],
-    'DreamShaper': ['1.5', DreamShaper_ui_config_dictionary, Base_config_dictionary, DreamShaper_model_link, 'DreamShaper_6.31_BakedVae_pruned.safetensors',  ],
+    'DreamShaper': ['1.5', DreamShaper_ui_config_dictionary, Base_config_dictionary, DreamShaper_model_link, 'DreamShaper_8_INPAINTING.inpainting.safetensors', 'DreamShaper_8_pruned.safetensors' ],
     'AnyLoRA': ['1.5', AnyLoRA_ui_config_dictionary, Base_config_dictionary, AnyLoRA_model_link, 'AAM_Anylora_AnimeMix.safetensors', 'AnyLoRA_noVae_fp16-pruned.ckpt' ],
     'AbsoluteReality': ['1.5', AbsoluteReality_ui_config_dictionary, Base_config_dictionary, AbsoluteReality_model_link, 'AbsoluteReality_1.8.1_pruned.safetensors' ],
     'MeinaHentai': ['1.5', MeinaHentai_ui_config_dictionary, Base_config_dictionary, MeinaHentai_model_link, 'meinaHentai V3 - baked VAE.safetensors' ],
@@ -302,4 +303,5 @@ available_model_dict = {
     'RealCartoon-Realistic': ['1.5', RealCartoonRealistic_ui_config_dictionary, Base_config_dictionary, RealCartoonRealistic_model_link, 'RealCartoon-Realistic.safetensors' ],
     'CounterfeitXL-anime': ['xl', CounterfeitXL_ui_config_dictionary, Base_config_dictionary, CounterfeitXL_model_link, 'CounterfeitXL-anime.safetensors' ],
     'ZavyChromaXL': ['xl', Base_ui_config_dictionary, Base_config_dictionary, ZavyChromaXL_model_link, 'ZavyChromaXL_1.0.safetensors' ],
+    'DreamShaperXL1.0': ['xl', Base_ui_config_dictionary, Base_config_dictionary, DreamShaperXL10_model_link, 'DreamShaperXL1.0.safetensors' ],
 }
