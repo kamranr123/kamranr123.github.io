@@ -272,6 +272,7 @@ ZavyChromaXL_model_link = "https://civitai.com/api/download/models/149243"
 DreamShaperXL10_model_link = "https://civitai.com/api/download/models/149243"
 _3DAnimationDiffusion_model_link = "https://civitai.com/api/download/models/128046"
 FaeTastic_model_link = "https://civitai.com/api/download/models/105796?type=Model&format=SafeTensor&size=full&fp=fp16"
+naturalsin_model_link = 'https://civitai.com/api/download/models/160989'
 
 available_model_dict = {
     'Stable Diffusion v1.5': ['1.5', SD15_ui_config_dictionary, Base_config_dictionary, SD15_model_link, 'v1-5-pruned.safetensors', 'v1-5-pruned-emaonly.safetensors'],
@@ -308,4 +309,6 @@ available_model_dict = {
     'DreamShaperXL1.0': ['xl', Base_ui_config_dictionary, Base_config_dictionary, DreamShaperXL10_model_link, 'DreamShaperXL1.0.safetensors' ],
     '3DAnimationDiffusion': ['1.5', Base_ui_config_dictionary, Base_config_dictionary, _3DAnimationDiffusion_model_link, '3DAnimationDiffusionV1.safetensors' ],
     'FaeTastic': ['1.5', Base_ui_config_dictionary, Base_config_dictionary, FaeTastic_model_link, 'FaeTasticV2.safetensors' ],
+    'naturalsin': ['1.5', Base_ui_config_dictionary, Base_config_dictionary, naturalsin_model_link, 'naturalsin.safetensors' ],
+
 }
