@@ -45,7 +45,7 @@ ChameleonAiMix_ui_config_dictionary = {
   "txt2img/CFG Scale/value": 10.0,
 }
 
-majicMIX_realistic_model_link = "https://huggingface.co/sinkinai/majicMIX-realistic-v5/resolve/main/"
+majicMIX_realistic_model_link = "https://civitai.com/api/download/models/176425?type=Model&format=SafeTensor&size=pruned&fp=fp16"
 majicMIX_realistic_ui_config_dictionary = {
   # refer to ui-config.json
   "txt2img/Negative prompt/value": "easynegative, ng_deepnegative_v1_75t, badhandv4, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), low res, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans, extra fingers, fewer fingers, strange fingers, bad hand, mole, ((extra legs)), ((extra hands)), multiple heads, multiple people",
@@ -279,7 +279,7 @@ available_model_dict = {
     'Dark Sushi Mix': ['1.5', darkSushiMixMix_ui_config_dictionary, Base_config_dictionary, darkSushiMixMix_model_link, 'darkSushiMixMix_brighterPruned.safetensors', 'darkSushiMixMix_darkerPruned.safetensors'],
     'ExpMix Line': ['1.5', ExpMix_Line_ui_config_dictionary, Base_config_dictionary, ExpMix_Line_model_link, 'expmixLine_v20.safetensors'],
     'ChameleonAiMix': ['1.5', ChameleonAiMix_ui_config_dictionary, Base_config_dictionary, ChameleonAiMix_model_link, 'chameleonaiMix_v10.safetensors'],
-    'majicMIX realistic V5': ['1.5', majicMIX_realistic_ui_config_dictionary, Base_config_dictionary, majicMIX_realistic_model_link, 'majicmixRealistic_v5.safetensors' ],
+    'majicMIX realistic': ['1.5', majicMIX_realistic_ui_config_dictionary, Base_config_dictionary, majicMIX_realistic_model_link, 'majicmixRealistic_v7.safetensors' ],
     'OrangeMixs': ['1.5', OrangeMixs_realistic_ui_config_dictionary, OrangeMixs_config_dictionary, OrangeMixs_model_link, 'AOM3.safetensors','AOM3A1.safetensors', 'AOM3A2.safetensors', 'AOM3A3.safetensors' ],
     'HenMixReal': ['1.5', HenMixReal_realistic_ui_config_dictionary, Base_config_dictionary, HenMixReal_model_link, 'henmixReal_v40.safetensors' ],
     'DreamlikePhotoreal': ['1.5', DreamlikePhotoreal_ui_config_dictionary, Base_config_dictionary, DreamlikePhotoreal_model_link, 'dreamlike-photoreal-2.0.safetensors' ],
