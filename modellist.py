@@ -301,7 +301,7 @@ available_model_dict = {
     'RealisticVision': ['1.5', RealisticVision_ui_config_dictionary, Base_config_dictionary, RealisticVision_model_link, 'Realistic_Vision_V5.0.safetensors', 'Realistic_Vision_V5.0-inpainting.safetensors' ],
     'SDXL-V1.0 Base': ['xl', SDXL_ui_config_dictionary, Base_config_dictionary, SDXL_model_link, 'sd_xl_base_1.0.safetensors', 'sd_xl_base_1.0_0.9vae.safetensors' ],
     'SDXL-V1.0 Refiner': ['xl', SDXL_Refiner_ui_config_dictionary, Base_config_dictionary, SDXL_Refiner_model_link, 'sd_xl_refiner_1.0_0.9vae.safetensors', 'sd_xl_base_1.0_0.9vae.safetensors' ],
-    'SDVN6-RealXL': ['xl', SDVN6_RealXL_ui_config_dictionary, Base_config_dictionary, SDVN6_RealXL_model_link, 'SDVN6-RealXL.safetensors' ],
+    'SDVN6-RealXL': ['xl', SDVN6_RealXL_ui_config_dictionary, Base_config_dictionary, SDVN6_RealXL_model_link, 'sdvn6Realxl_detailface.safetensors' ],
     'DynaVisionXL': ['xl', DynaVisionXL_ui_config_dictionary, Base_config_dictionary, DynaVisionXL_model_link, 'DynaVisionXL.safetensors' ],
     'RealCartoon-Realistic': ['1.5', RealCartoonRealistic_ui_config_dictionary, Base_config_dictionary, RealCartoonRealistic_model_link, 'RealCartoon-Realistic.safetensors' ],
     'CounterfeitXL-anime': ['xl', CounterfeitXL_ui_config_dictionary, Base_config_dictionary, CounterfeitXL_model_link, 'CounterfeitXL-anime.safetensors' ],
