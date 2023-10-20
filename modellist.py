@@ -274,6 +274,7 @@ _3DAnimationDiffusion_model_link = "https://civitai.com/api/download/models/1280
 FaeTastic_model_link = "https://civitai.com/api/download/models/105796?type=Model&format=SafeTensor&size=full&fp=fp16"
 naturalsin_model_link = 'https://civitai.com/api/download/models/160989'
 Juggernaut_XL_model_link = "https://civitai.com/api/download/models/166909"
+Starlight_XL_model_link = "https://civitai.com/api/download/models/182077"
 
 available_model_dict = {
     'Stable Diffusion v1.5': ['1.5', SD15_ui_config_dictionary, Base_config_dictionary, SD15_model_link, 'v1-5-pruned.safetensors', 'v1-5-pruned-emaonly.safetensors'],
@@ -312,4 +313,5 @@ available_model_dict = {
     'FaeTastic': ['1.5', Base_ui_config_dictionary, Base_config_dictionary, FaeTastic_model_link, 'FaeTasticV2.safetensors' ],
     'naturalsin': ['1.5', Base_ui_config_dictionary, Base_config_dictionary, naturalsin_model_link, 'naturalsin.safetensors' ],
     'JuggernautXL': ['xl', Base_ui_config_dictionary, Base_config_dictionary, Juggernaut_XL_model_link, 'Juggernautxl-V5.safetensors' ],
+    'StarlightXL': ['xl', Base_ui_config_dictionary, Base_config_dictionary, Starlight_XL_model_link, 'StarlightXL-V3.safetensors' ],
 }
