@@ -245,7 +245,7 @@ SDVN6_RealXL_ui_config_dictionary = {
   "txt2img/CFG Scale/value": 6,
 }
 
-DynaVisionXL_model_link = "https://civitai.com/api/download/models/136761"
+DynaVisionXL_model_link = "https://civitai.com/api/download/models/198962"
 DynaVisionXL_ui_config_dictionary = {
   # refer to ui-config.json
   "txt2img/Negative prompt/value": '(worst quality, low quality, illustration, 3d, 2d, painting, cartoons, sketch), tooth, open mouth,',
@@ -304,7 +304,7 @@ available_model_dict = {
     'SDXL-V1.0 Base': ['xl', SDXL_ui_config_dictionary, Base_config_dictionary, SDXL_model_link, 'sd_xl_base_1.0.safetensors', 'sd_xl_base_1.0_0.9vae.safetensors' ],
     'SDXL-V1.0 Refiner': ['xl', SDXL_Refiner_ui_config_dictionary, Base_config_dictionary, SDXL_Refiner_model_link, 'sd_xl_refiner_1.0_0.9vae.safetensors', 'sd_xl_base_1.0_0.9vae.safetensors' ],
     'SDVN6-RealXL': ['xl', SDVN6_RealXL_ui_config_dictionary, Base_config_dictionary, SDVN6_RealXL_model_link, 'sdvn6Realxl_detailface.safetensors' ],
-    'DynaVisionXL': ['xl', DynaVisionXL_ui_config_dictionary, Base_config_dictionary, DynaVisionXL_model_link, 'DynaVisionXL.safetensors' ],
+    'DynaVisionXL': ['xl', DynaVisionXL_ui_config_dictionary, Base_config_dictionary, DynaVisionXL_model_link, 'DynaVisionXL-0.5.5.7.safetensors' ],
     'RealCartoon-Realistic': ['1.5', RealCartoonRealistic_ui_config_dictionary, Base_config_dictionary, RealCartoonRealistic_model_link, 'RealCartoon-Realistic.safetensors' ],
     'CounterfeitXL-anime': ['xl', CounterfeitXL_ui_config_dictionary, Base_config_dictionary, CounterfeitXL_model_link, 'CounterfeitXL-anime.safetensors' ],
     'ZavyChromaXL': ['xl', Base_ui_config_dictionary, Base_config_dictionary, ZavyChromaXL_model_link, 'ZavyChromaXL_1.0.safetensors' ],
