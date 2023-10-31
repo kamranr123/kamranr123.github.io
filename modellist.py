@@ -253,7 +253,7 @@ DynaVisionXL_ui_config_dictionary = {
   "txt2img/CFG Scale/value": 6,
 }
 
-RealCartoonRealistic_model_link = "https://civitai.com/api/download/models/132902"
+RealCartoonRealistic_model_link = "https://civitai.com/api/download/models/201171?type=Model&format=SafeTensor&size=pruned&fp=fp16"
 RealCartoonRealistic_ui_config_dictionary = {
   # refer to ui-config.json
   "txt2img/Negative prompt/value": '(worst quality, low quality, illustration, painting, sketch)',
