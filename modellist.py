@@ -275,6 +275,7 @@ FaeTastic_model_link = "https://civitai.com/api/download/models/105796?type=Mode
 naturalsin_model_link = 'https://civitai.com/api/download/models/160989'
 Juggernaut_XL_model_link = "https://civitai.com/api/download/models/166909"
 Starlight_XL_model_link = "https://civitai.com/api/download/models/182077"
+Dreamshaper_8_lcm_model_link = "https://huggingface.co/Lykon/dreamshaper-8-lcm/resolve/main/DreamShaper8_LCM.safetensors?download=true"
 
 available_model_dict = {
     'Stable Diffusion v1.5': ['1.5', SD15_ui_config_dictionary, Base_config_dictionary, SD15_model_link, 'v1-5-pruned.safetensors', 'v1-5-pruned-emaonly.safetensors'],
@@ -314,4 +315,5 @@ available_model_dict = {
     'naturalsin': ['1.5', Base_ui_config_dictionary, Base_config_dictionary, naturalsin_model_link, 'naturalsin.safetensors' ],
     'JuggernautXL': ['xl', Base_ui_config_dictionary, Base_config_dictionary, Juggernaut_XL_model_link, 'Juggernautxl-V5.safetensors' ],
     'StarlightXL': ['xl', Base_ui_config_dictionary, Base_config_dictionary, Starlight_XL_model_link, 'StarlightXL-V3.safetensors' ],
+    'Dreamshaper-8-lcm': ['1.5', Base_ui_config_dictionary, Base_config_dictionary, Dreamshaper_8_lcm_model_link, 'Dreamshaper-8-lcm.safetensors' ],
 }
